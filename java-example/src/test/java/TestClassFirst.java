@@ -6,32 +6,51 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.swing.plaf.synth.SynthEditorPaneUI;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 public class TestClassFirst {
     private WebDriver driver;
     private WebDriverWait wait;
 
+    public boolean isElementPresent(By locator){
+        wait.until((WebDriver d) -> d.findElement(locator));
+        return true;
+    }
+
     @Before
     public void start(){
-
         //DesiredCapabilities caps = new DesiredCapabilities();
         //caps.setCapability("unexpectedAlertBehavior","dismiss");
         //driver = new ChromeDriver();
-        //driver = new FirefoxDriver();
-        driver = new RemoteWebDriver(DesiredCapabilities.firefox());
+        driver = new FirefoxDriver();
+        //driver = new RemoteWebDriver(DesiredCapabilities.firefox()); //удаленный запуск
         driver.manage().window().maximize();
         //System.out.println(((HasCapabilities) driver).getCapabilities());
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 10);
     }
 
     @Test
     public void myTest1() throws InterruptedException {
         driver.get("https://chlist.sitechco.ru/");
+
+        List<WebElement> email = driver.findElements(By.cssSelector("label.small-label.block"));
+        WebElement email1 =  email.get(0);
+        //wait.until(ExpectedConditions.stalenessOf(email));
+        String em = email1.getAttribute("textContent");
+        System.out.println(em);
+        //Assert.assertTrue(em.equals("Пароль                                ")); //проверка
+        
+
+
+
+
         //driver.findElement(By.name("user_auth[email]")).sendKeys("zamyatinrussia@mail.ru");
         //driver.findElement(By.cssSelector("[id=user_auth_email]")).sendKeys("zamyatinrussia@mail.ru");
         driver.findElement(By.xpath("//*[@name='user_auth[email]']")).sendKeys("zamyatinrussia@mail.ru");
@@ -44,7 +63,7 @@ public class TestClassFirst {
         TimeUnit.SECONDS.sleep(1);
 
 
-        WebElement rows = driver.findElement(By.cssSelector("span.cnt"));
+        //WebElement rows = driver.findElement(By.cssSelector("span.cnt"));
         //WebElement span = rows.findElement(By.xpath("./span/div[2]/br"));
         //String span = rows.findElements(By.xpath("./rows[1]")).getText();
         //String spana= span.getText();
@@ -52,17 +71,12 @@ public class TestClassFirst {
 
         driver.findElement(By.id("search-input")).sendKeys("Чек-лист");
         driver.findElement(By.id("search-input")).sendKeys(Keys.RETURN);
+
     }
 
 
-    @Test
-    public void myTest2() {
-        driver.get("https://google.ru/");
-    }
-
-
-
-
+    //@Test
+    //public void myTest2() {        driver.get("https://google.ru/");    }
 
 
     @After

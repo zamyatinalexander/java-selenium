@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3d894126-18db-4035-a3c0-18c6e9cd5792" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java-selenium/instruction.docx" afterPath="$PROJECT_DIR$/../java-selenium/instruction.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java-selenium/java-example/out/test/classes/TestClassFirst.class" afterPath="$PROJECT_DIR$/../java-selenium/java-example/out/test/classes/TestClassFirst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java-selenium/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../java-selenium/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java-selenium/java-example/src/test/java/TestClassFirst.java" afterPath="$PROJECT_DIR$/../java-selenium/java-example/src/test/java/TestClassFirst.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-selenium/out/" />
     <ignored path="$PROJECT_DIR$/../java-selenium/java-example/.gradle/" />
@@ -55,12 +58,10 @@
       <file leaf-file-name="TestClassFirst.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/src/test/java/TestClassFirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="816">
+              <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2366#2367#0" expanded="true" />
-                <element signature="e#2414#2415#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -461,8 +462,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -472,38 +471,14 @@
             </path>
             <path>
               <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="java-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="java-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="java-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="java-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -670,39 +645,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 27m 51s.xml">
+    <history-entry file="TestClassFirst - 2017.12.22 at 15h 18m 06s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 28m 12s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 45m 14s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 28m 36s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 45m 50s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 29m 26s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 46m 11s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 30m 09s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 46m 31s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 30m 37s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 46m 56s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 45m 54s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 48m 04s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 46m 26s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 50m 12s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 57m 15s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 50m 46s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassFirst - 2017.12.20 at 00h 57m 50s.xml">
+    <history-entry file="TestClassFirst - 2017.12.23 at 12h 51m 06s.xml">
       <configuration name="TestClassFirst" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1096" height="1936" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -710,14 +686,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982263" sideWeight="0.33783785" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982263" sideWeight="0.3523166" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982263" sideWeight="0.6621622" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982263" sideWeight="0.6476834" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.49804142" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22117516" sideWeight="0.49420848" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22586873" sideWeight="0.49730822" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23938224" sideWeight="0.49730822" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20033576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -738,7 +714,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -753,12 +729,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/src/test/java/TestClassFirst.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/src/test/java/TestClassFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/src/test/java/TestClassFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/src/test/java/TestClassFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2414#2415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,8 +805,6 @@
           <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2414#2415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,8 +830,6 @@
           <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2414#2415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,14 +849,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../java-selenium/java-example/src/test/java/TestClassFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="816">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2414#2415#0" expanded="true" />
           </folding>
         </state>
       </provider>
