@@ -1,23 +1,13 @@
-import javafx.application.Platform;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.swing.plaf.synth.SynthEditorPaneUI;
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
 public class TestClassFirst {
     private WebDriver driver;
@@ -35,12 +25,12 @@ public class TestClassFirst {
         //System.setProperty("webdriver.chrome.driver", "D:\\java-selenium\\chromedriver.exe");
         //driver = new ChromeDriver();
         //System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver.exe");
-        //driver = new FirefoxDriver();
+        driver = new FirefoxDriver();
 
         //System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
         //DesiredCapabilities capability = DesiredCapabilities.chrome();
         //driver = new RemoteWebDriver(new URL("http://192.168.1.75:4444/wd/hub"),capability); //удаленный запуск
-        driver = new RemoteWebDriver(new URL("http://192.168.1.75:4444/wd/hub"),DesiredCapabilities.firefox());
+        //driver = new RemoteWebDriver(new URL("http://192.168.1.75:4444/wd/hub"),DesiredCapabilities.firefox());
         //driver.manage().window().maximize(); //c этим удаленно не работает почему-то
         driver.manage().window().setSize(new Dimension(1920, 1080));
         //System.out.println(((HasCapabilities) driver).getCapabilities());
@@ -102,4 +92,7 @@ public class TestClassFirst {
         driver.quit();
         driver = null;
     }
+     public static void main(String[] args){
+         System.out.println("qu ept");
+     }
 }
